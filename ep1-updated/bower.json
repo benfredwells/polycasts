@@ -1,0 +1,25 @@
+{
+  "name": "ep1",
+  "authors": [
+    "Ben Wells <benfred@mjaw.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "resolutions": {
+    "webcomponentsjs": "0.7.20"
+  },
+  "dependencies": {
+    "iron-icon": "PolymerElements/iron-icon#^1.0.7"
+  }
+}
