@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <link rel="import" href="elements.html">
+</head>
+<body>
+  <template is="dom-bind" id="app">
+    <paper-drawer-panel>
+      <paper-header-panel drawer>
+        <paper-toolbar>
+          Menu
+        </paper-toolbar>
+        <paper-menu selected="{{page}}" attr-for-selected="page">
+          <paper-item page="home">Home</paper-item>
+          <paper-item page="frobules">Frobules</paper-item>
+          <paper-item page="smurf">Smurf</paper-item>
+        </paper-menu>
+      </paper-header-panel>
+      <paper-header-panel main>
+        <paper-toolbar>
+          <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+          <div class="flex">My App</div>
+        </paper-toolbar>
+        <div class="container" class="fit layout vertical">
+          <iron-pages selected="{{page}}" attr-for-selected="page">
+            <section page="home">
+              <h1>Home</h1>
+              <div>Home content</div>
+            </section>
+            <section page="frobules">
+              <h1>Frobules</h1>
+              <div>This is the frobules</div>
+            </section>
+            <section page="smurf">
+              <h1>Smurf</h1>
+              <div>Smurfy smurf smurf</div>
+            </section>
+          </iron-pages>
+        </div>
+      </paper-header-panel>
+    </paper-drawer-panel>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
