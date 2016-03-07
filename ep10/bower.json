@@ -1,0 +1,24 @@
+{
+  "name": "ep10",
+  "homepage": "https://github.com/benfredwells/polycasts",
+  "authors": [
+    "Ben Wells <benfred@mjaw.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7",
+    "page": "page.js#^1.6.4",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.8"
+  }
+}
